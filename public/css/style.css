@@ -1,0 +1,149 @@
+/****************************************
+ROOT
+****************************************/
+:root {
+    font-size: 14px;
+    font-family: 'Press Start 2P', monospace, fantasy, cursive;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #262630;
+    --bg-secondary: #2f2f38;    
+}
+/****************************************
+BODY
+****************************************/
+body {
+    color: black;
+    background-color: rgb(184, 184, 184);
+    margin: 0;
+    padding: 0;
+}
+/****************************************
+SCROLLBAR SIZE AND COLOR
+****************************************/
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+/****************************************
+MAIN
+****************************************/
+main {
+    /******
+    rem takes size from :root
+    then multiplies it (In this case, 5 * 16px = 80px
+    It helps keep everything proportional
+    If you change the main :root font-size, it changes everything with rem to stay the same proportional size
+    ******/
+    margin-left: 5rem;
+    padding: 1rem;
+    font-family: monospace;
+}
+/****************************************
+NAVBAR
+****************************************/
+.navbar {
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 225ms ease;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.nav-item {
+    width: 90%;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+.nav-link:hover {
+    filter: grayscale(0%);
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+
+/* CANDY COATED BOARD GAMES */
+
+.aboutMe {
+    font-size: 20px;
+}
+
+.iconHeart {
+    width: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-nav img {
+        height: 60%;
+    }
+    .nav-link {
+        justify-content: center;
+    }
+    
+    main {
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+    .navbar:hover {
+        width: 20rem;
+    }
+    .navbar:hover .link-text {
+        display: inline;
+    }
+
+}
+
+
