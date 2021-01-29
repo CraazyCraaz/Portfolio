@@ -1,0 +1,103 @@
+.r-container * {
+    box-sizing: border-box;
+      font-family: monospace;
+  }
+  
+  .r-container a:link {
+    color: rgb(100, 70, 113); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  .r-container a:visited {
+    color: rgb(100, 70, 113);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .r-container a:hover {
+    color: rgb(180,180,180);
+    background-color: rgb(50,50,50);
+    text-decoration: underline;
+  }
+  
+  .r-container a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .r-container body {
+    margin: 0;
+      background-color: rgb(180,180,180)
+  }
+  
+  /* Style the header */
+  .r-container .header {
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+    text-align: center;
+      color: rgb(50,50,50);
+  }
+  
+  /* Style the top navigation bar */
+  .r-container .topnav {
+    overflow: hidden;
+    background-color: rgb(50,50,50);
+  }
+  
+  /* Style the topnav links */
+  .r-container .topnav a {
+    float: left;
+    display: block;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .r-container .topnav a:hover {
+    background-color: rgb(180, 180, 180);
+    color: rgb(50,50,50);
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .r-container .column {
+    float: left;
+    padding: 20px;
+      background-color: rgb(180,180,180);
+  }
+  
+  /* Left and right column */
+  .r-container .column.side {
+    width: 25%;
+      text-align: right;
+  }
+  
+  /* Middle column */
+  .r-container .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .r-container .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .r-container .column.side, .r-container .column.middle {
+      width: 100%;
+    }
+  }
+  
+  /* Style the footer */
+  .r-container .footer {
+    background-color: rgb(50,50,50);
+    padding: 10px;
+    text-align: center;
+      color: rgb(50,50,50);
+  }
