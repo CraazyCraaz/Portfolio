@@ -12,8 +12,16 @@
 
 .p-container * {
     box-sizing: border-box;
-      font-family: monospace;
+    font-family: monospace;
   }
+
+.p-container h3 {
+    font-size: 30px;
+}
+
+.p-container {
+    font-size: 16px;
+}
   
   .p-container a:link {
     color: rgb(100, 70, 113); 
@@ -51,15 +59,13 @@
       background-color: rgb(180,180,180);
   }
   
-  /* Left and right column */
   .p-container .column.left {
-    width: 50%;
+    width: 40%;
       text-align: left;
   }
-  
-  /* Middle column */
+
   .p-container .column.right {
-    width: 50%;
+    width: 60%;
   }
   
   /* Clear floats after the columns */
@@ -69,7 +75,6 @@
     clear: both;
   }
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .p-container .column.left, .p-container .column.right {
       width: 100%;
