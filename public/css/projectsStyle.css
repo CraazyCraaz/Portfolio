@@ -13,3 +13,99 @@
 .p-three img {
     width: 450px;
 }
+
+.p-container * {
+    box-sizing: border-box;
+      font-family: monospace;
+  }
+  
+  .p-container a:link {
+    color: rgb(100, 70, 113); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  .p-container a:visited {
+    color: rgb(100, 70, 113);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .p-container a:hover {
+    color: rgb(180,180,180);
+    background-color: rgb(50,50,50);
+    text-decoration: underline;
+  }
+  
+  .p-container a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .p-container body {
+    margin: 0;
+      background-color: rgb(180,180,180)
+  }
+  
+  /* Style the header */
+  .p-container .header {
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+    text-align: center;
+      color: rgb(50,50,50);
+  }
+  
+  /* Style the top navigation bar */
+  .p-container .topnav {
+    overflow: hidden;
+    background-color: rgb(50,50,50);
+  }
+  
+  /* Style the topnav links */
+  .p-container .topnav a {
+    float: left;
+    display: block;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .p-container .topnav a:hover {
+    background-color: rgb(180, 180, 180);
+    color: rgb(50,50,50);
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .p-container .column {
+    float: left;
+    padding: 20px;
+      background-color: rgb(180,180,180);
+  }
+  
+  /* Left and right column */
+  .p-container .column.side {
+    width: 25%;
+      text-align: right;
+  }
+  
+  /* Middle column */
+  .p-container .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .p-container .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .p-container .column.side, .p-container .column.middle {
+      width: 100%;
+    }
+  }
