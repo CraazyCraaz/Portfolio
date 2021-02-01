@@ -2,6 +2,10 @@
     box-sizing: border-box;
       font-family: monospace;
   }
+
+  .r-container img {
+    border-radius: 50%;
+  }
   
   .r-container a:link {
     color: rgb(100, 70, 113); 
@@ -86,7 +90,7 @@
     display: table;
     clear: both;
   }
-  
+    
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .r-container .column.side, .r-container .column.middle {
