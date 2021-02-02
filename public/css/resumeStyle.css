@@ -45,26 +45,11 @@
   }
   
   /* Style the top navigation bar */
-  .r-container .topnav {
+  .r-container .topline {
     overflow: hidden;
     background-color: rgb(50,50,50);
   }
   
-  /* Style the topnav links */
-  .r-container .topnav a {
-    float: left;
-    display: block;
-    color: rgb(180, 180, 180);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .r-container .topnav a:hover {
-    background-color: rgb(180, 180, 180);
-    color: rgb(50,50,50);
-  }
   
   /* Create three unequal columns that floats next to each other */
   .r-container .column {
@@ -92,7 +77,7 @@
   }
     
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .r-container .column.side, .r-container .column.middle {
       width: 100%;
     }
