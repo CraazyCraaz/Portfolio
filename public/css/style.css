@@ -91,38 +91,6 @@ NAVBAR
     letter-spacing: 0.3ch;
     width: 100%;
 }
-/* ABOUT ME */
-.aboutMe {
-    font-size: 18px;
-    font-family: monospace;
-}
-.iconHeart {
-    width: 15px;
-}
-.aboutMe a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-  }  
-.aboutMe a:link {
-    color: #470d4e;
-  }  
-  .aboutMe a:visited {
-    color: #4e1445;
-  }  
-  .aboutMe a:focus {
-    border-bottom: 1px solid;
-    background: #e2e0ee;
-  }  
-  .aboutMe a:hover {
-    border-bottom: 1px solid;
-    background: #e5e9f1;
-  }  
-  .aboutMe a:active {
-    background: #2e0153;
-    color: #ea94f1;
-  }  
-
   .spacebuffer{
       padding-top: 20px;
   }

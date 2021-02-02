@@ -1,0 +1,36 @@
+.aboutme {
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.iconHeart {
+    width: 1.5rem;
+}
+.aboutme a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.aboutme a:link {
+    color: rgb(100, 70, 113); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  .aboutme a:visited {
+    color: rgb(100, 70, 113);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .aboutme a:hover {
+    color: rgb(180,180,180);
+    background-color: rgb(50,50,50);
+    text-decoration: underline;
+  }
+  
+  .aboutme a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
