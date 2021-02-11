@@ -2,6 +2,8 @@
 
 ## Cool stuff about me
 
+* Looking for Work
+
 * My Wonderful Resume
 
 * My LinkedIn Profile
