@@ -91,7 +91,10 @@ NAVBAR
     letter-spacing: 0.3ch;
     width: 100%;
 }
-  .spacebuffer{
+.front {
+    text-align: center;
+}
+.spacebuffer{
       padding-top: 20px;
   }
 @media screen and (max-width: 600px) {
