@@ -17,6 +17,7 @@ body {
     background-color: rgb(180, 180, 180);
     margin: 0;
     padding: 0;
+    
 }
 /****************************************
 SCROLLBAR SIZE AND COLOR
@@ -93,6 +94,7 @@ NAVBAR
 }
 .front {
     text-align: center;
+    line-height: 2rem;
 }
 .spacebuffer{
       padding-top: 20px;
@@ -119,6 +121,7 @@ NAVBAR
     
     main {
         margin: 0;
+
     }
 
 }
