@@ -9,12 +9,15 @@ ROOT
     --bg-primary: #262630;
     --bg-secondary: #2f2f38;    
 }
+
 /****************************************
 BODY
 ****************************************/
 body {
     color: black;
-    background-color: rgb(180, 180, 180);
+    background: rgb(53,52,76);
+    background: linear-gradient(94deg, rgb(199, 198, 211) 0%, rgb(211, 209, 224) 43%, rgb(205, 227, 228) 100%);
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     
@@ -35,6 +38,7 @@ body::-webkit-scrollbar-thumb {
 MAIN
 ****************************************/
 main {
+    
     /******
     rem takes size from :root
     then multiplies it (In this case, 5 * 16px = 80px
@@ -117,17 +121,12 @@ NAVBAR
     }
     .nav-link {
         justify-content: center;
-    }
-    
+    }    
     main {
         margin: 0;
-
     }
-
 }
-
 @media screen and (min-width: 600px) {
-
     .navbar {
         top: 0;
         width: 5rem;
@@ -139,7 +138,6 @@ NAVBAR
     .navbar:hover .link-text {
         display: inline;
     }
-
 }
 
 

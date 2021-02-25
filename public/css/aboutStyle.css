@@ -1,9 +1,15 @@
+main {
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
+
 .aboutme {
     font-size: 1.5rem;
     font-family: monospace;
+    max-width: 600px;
 }
 .iconHeart {
-    width: 1.5rem;
+    width: 2rem;
 }
 .aboutme a {
     outline: none;
