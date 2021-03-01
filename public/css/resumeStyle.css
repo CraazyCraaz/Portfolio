@@ -1,6 +1,10 @@
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}  
   .r-container * {
     box-sizing: border-box;
-      font-family: monospace;
+    font-family: monospace;
   }
 
   .r-container img {

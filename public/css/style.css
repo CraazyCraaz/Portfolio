@@ -1,15 +1,18 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Black.ttf') format('truetype');
+}
 /****************************************
 ROOT
 ****************************************/
 :root {
     font-size: 14px;
-    font-family: 'Press Start 2P', monospace, fantasy, cursive;
+    font-family: 'Lato', monospace, fantasy, cursive;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: #262630;
     --bg-secondary: #2f2f38;    
 }
-
 /****************************************
 BODY
 ****************************************/
@@ -99,6 +102,9 @@ NAVBAR
 .front {
     text-align: center;
     line-height: 2rem;
+}
+.greet {
+    font-size: 60px;
 }
 .spacebuffer{
       padding-top: 20px;

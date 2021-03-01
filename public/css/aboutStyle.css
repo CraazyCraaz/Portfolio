@@ -1,13 +1,20 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Light.ttf') format('truetype');
+}
+
 main {
-  padding-left: 3rem;
+  padding-left: 4rem;
   padding-right: 4rem;
 }
 
 .aboutme {
+    margin: auto;
     font-size: 1.8rem;
-    font-family: monospace;
+    font-family: 'Lato', monospace;
     line-height: 3rem;
     max-width: 600px;
+    
 }
 .iconHeart {
     width: 2rem;
@@ -40,4 +47,20 @@ main {
     color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: underline;
+  }
+
+
+  .the-back {
+    display: flex;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+    max-width: 800px;
   }

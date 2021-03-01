@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Light.ttf') format('truetype');
+}
+
+main {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.center-img {
+  text-align: center;
+}
+
 .p-one img {
     width: 50vh;
 }
@@ -12,7 +30,7 @@
 
 .p-container * {
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Lato';
   }
 
 .p-container h3 {
@@ -74,8 +92,27 @@
     display: table;
     clear: both;
   }
+
+  .main-project {
+    margin: auto;
+  }
+
+  .the-back {
+    display: flex;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+    max-width: 950px;
+  }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 950px) {
     .p-container .column.left, .p-container .column.right {
       width: 100%;
     }
