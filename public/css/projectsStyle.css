@@ -13,19 +13,19 @@ h1 {
   text-align: center;
 }
 .center-img {
-  text-align: center;
+  text-align: right;
 }
 
 .p-one img {
-    width: 50vh;
+    width: 45vh;
 }
 
 .p-two img {
-    width: 50vh;
+    width: 45vh;
 }
 
 .p-three img {
-    width: 50vh;
+    width: 45vh;
 }
 
 .p-container * {
@@ -78,12 +78,12 @@ h1 {
   }
   
   .p-container .column.left {
-    width: 40%;
+    width: 49%;
       text-align: left;
   }
 
   .p-container .column.right {
-    width: 60%;
+    width: 51%;
   }
   
   /* Clear floats after the columns */
@@ -96,6 +96,8 @@ h1 {
   .main-project {
     margin: auto;
   }
+  
+
 
   .the-back {
     display: flex;
@@ -109,11 +111,22 @@ h1 {
     padding: 2rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
-    max-width: 950px;
+    /* max-width: 950px; */
   }
   
-  @media screen and (max-width: 950px) {
-    .p-container .column.left, .p-container .column.right {
+  @media only screen and (max-width: 1200px) {
+    .p-one img {
+      width: 30vh;
+  }  
+  .p-two img {
+      width: 30vh;
+  }  
+  .p-three img {
+      width: 30vh;
+  }    .p-container .column.left, .p-container .column.right {
       width: 100%;
+
     }
   }
+
+  

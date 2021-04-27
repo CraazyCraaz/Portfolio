@@ -8,17 +8,21 @@ main {
   padding-right: 4rem;
 }
 
+.center-img {
+  text-align: right;
+}
+
 .aboutme {
     margin: auto;
     font-size: 1.8rem;
     font-family: 'Lato', monospace;
     line-height: 3rem;
-    max-width: 600px;
-    
+    max-width: 600px;    
 }
 .iconHeart {
     width: 2rem;
 }
+
 .aboutme a {
     outline: none;
     text-decoration: none;
