@@ -1,13 +1,21 @@
 @font-face {
+    font-family: 'Handlee';
+    src: url('../fonts/Handlee-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Hachi';
+    src: url('../fonts/HachiMaruPop-Regular.ttf') format('truetype');
+}
+@font-face {
     font-family: 'Lato';
-    src: url('./fonts/Lato-Black.ttf') format('truetype');
+    src: url('../fonts/Lato-Light.ttf') format('truetype');
 }
 /****************************************
 ROOT
 ****************************************/
 :root {
     font-size: 14px;
-    font-family: 'Lato', monospace, fantasy, cursive;
+    font-family: 'Handlee', monospace, fantasy, cursive;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: #262630;
@@ -104,7 +112,8 @@ NAVBAR
     line-height: 2rem;
 }
 .greet {
-    font-size: 60px;
+    font-family: 'Hachi';
+    font-size: 5rem;
 }
 .spacebuffer{
       padding-top: 20px;
@@ -145,5 +154,3 @@ NAVBAR
         display: inline;
     }
 }
-
-

@@ -1,6 +1,14 @@
 @font-face {
+  font-family: 'Handlee';
+  src: url('../fonts/Handlee-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Hachi';
+  src: url('../fonts/HachiMaruPop-Regular.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Lato';
-  src: url('./fonts/Lato-Light.ttf') format('truetype');
+  src: url('../fonts/Lato-Light.ttf') format('truetype');
 }
 
 main {
@@ -30,7 +38,7 @@ h1 {
 
 .p-container * {
     box-sizing: border-box;
-    font-family: 'Lato';
+    font-family: 'Lato', monospace;
   }
 
 .p-container h3 {
@@ -108,7 +116,7 @@ h1 {
     );
     border-radius: 1rem;
     margin: 2rem 0rem;
-    padding: 2rem;
+    padding: .5rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
     /* max-width: 950px; */
@@ -116,13 +124,13 @@ h1 {
   
   @media only screen and (max-width: 1200px) {
     .p-one img {
-      width: 30vh;
+      width: 40vh;
   }  
   .p-two img {
-      width: 30vh;
+      width: 40vh;
   }  
   .p-three img {
-      width: 30vh;
+      width: 40vh;
   }    .p-container .column.left, .p-container .column.right {
       width: 100%;
 
